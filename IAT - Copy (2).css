@@ -1,0 +1,253 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000; /* Hitam */
+    color: #fff;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid aqua;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area .brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid aqua;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: aqua;
+}
+
+/* ===== HERO ===== */
+.hero {
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+                url("pondok.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+}
+
+.hero-content p {
+    margin: 10px 0 20px;
+    font-size: 18px;
+    color: #ddd;
+}
+
+.cta-btn {
+    padding: 10px 25px;
+    background: aqua;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #00d9d9;
+}
+
+/* ===== SECTION ===== */
+.section {
+    padding: 60px 40px;
+}
+
+.title {
+    font-size: 28px;
+    color: aqua;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* ===== ABOUT ===== */
+.about p {
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* ===== VISI MISI ===== */
+.visimisi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.vm-card {
+    background: #0a0a0a;
+    padding: 25px;
+    border: 2px solid aqua;
+    width: 45%;
+    min-width: 300px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.vm-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px aqua;
+}
+
+.vm-card h3 {
+    color: aqua;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.vm-card ul li {
+    margin: 8px 0;
+}
+
+/* ===== USTADZ ===== */
+.ustadz-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.ustadz-card {
+    width: 240px;
+    background: #0a0a0a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.ustadz-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid aqua;
+}
+
+.ustadz-card h4 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: aqua;
+}
+
+.ustadz-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px aqua;
+}
+
+/* ===== LOGO UTAMA ===== */
+.logo-utama {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid aqua;
+    box-shadow: 0 0 20px aqua;
+}
+
+/* ===== PELAJARAN ===== */
+.pelajaran h2 {
+    color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pelajaran-flex {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pelajaran-card {
+    background: #0a0a0a;
+    border-radius: 10px;
+    width: 260px;
+    padding: 20px;
+    border: 2px solid aqua;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.pelajaran-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px aqua;
+}
+
+.pelajaran-card h3 {
+    color: aqua;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pelajaran-card ul li {
+    margin-bottom: 6px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: aqua;
+    background: #000;
+    border-top: 2px solid aqua;
+}
